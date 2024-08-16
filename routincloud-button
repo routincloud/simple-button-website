@@ -1,0 +1,19 @@
+# Routin Cloud (Very Very Basic Button for Websites)
+
+This button is very easy to use. It’s the first version, so it may need improvement, but it’s the best button for editing with a basic concept of JavaScript. Use the `getbutton.js` file on your website, and it will load `code.js` from the JSON file. You can edit the WhatsApp numbers you want to display, preview websites, and use forms thanks to Formspree.
+
+## Getting a Formspree Slug
+
+To get a Formspree slug, create an account on Formspree and follow these steps:
+
+1. **Sign Up:** Go to [Formspree](https://formspree.io/) and sign up for an account.
+2. **Create a Form:** After logging in, create a new form.
+3. **Get the Slug:** Copy the form’s endpoint URL; the slug is part of this URL.
+
+## Getting a Website Previewer
+
+To get a website previewer, create an account on LinPreview and follow these steps:
+
+1. **Sign Up:** Go to [LinPreview](https://linpreview.com/) and sign up for an account.
+2. **Create a Preview:** Add the website URL you want to preview.
+3. **Get the Preview URL:** Copy the generated URL for use in your application.
