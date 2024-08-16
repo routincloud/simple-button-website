@@ -1,0 +1,21 @@
+/* Routin Cloud Free Button Sample
+ * WhatsApp Stylesheet
+ * This stylesheet defines the styles for WhatsApp-related UI elements.
+ * It includes hover effects for the send button, styling for the WhatsApp phone number select dropdown,
+ * and focus styles to remove the default outline and box-shadow from the select element.
+ * Made for Routin.cloud by @hiddensetup
+ */
+
+ #send-whatsapp:hover {
+  background-color: #16d020;
+}
+
+#whatsapp-select {
+  margin-top: 10px;
+  width: 100%;
+}
+
+#whatsapp-select:focus {
+  outline: none;
+  box-shadow: none;
+}

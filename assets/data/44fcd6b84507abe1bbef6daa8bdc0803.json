@@ -1,0 +1,56 @@
+{
+    "users": {
+        "44fcd6b84507abe1bbef6daa8bdc0803": {           
+            "main-button": [
+
+                {
+                    "url": "https://raw.githubusercontent.com/routincloud/routincloud-svg/main/logo.svg",
+                    "color": "black"
+                }
+            ],
+            "extra-buttons": [
+             
+                {
+                    "url": "https://raw.githubusercontent.com/routincloud/routincloud-svg/main/web.svg",
+                    "color": "linear-gradient(37deg, #ffc500 0%, #ff5d25 25%, #ff2a86 50%, #d812ab 75%, #f447ff 100%)",
+                    "modal-index": 1,
+                    "link-preview": true,
+                    "url-preview": "https://routin.cloud",
+                    "link-preview-api-key": "95ab9779437883c7f891458a13373a3f"
+                },
+                {
+                    "url": "https://raw.githubusercontent.com/routincloud/routincloud-svg/main/wa.svg",
+                    "color": "#16d020",
+                    "modal-index": 2,
+                    "wa-message": true,
+                    "wa-phone-numbers": [
+                        {
+                            "phone": "1234567890",
+                            "area": "sales"
+                          },
+                          {
+                            "phone": "1987654321",
+                            "area": "support"
+                          }
+                        ]
+                },
+                {
+                    "url": "https://raw.githubusercontent.com/routincloud/routincloud-svg/main/email.svg",
+                    "color": "#ff001b",
+                    "modal-index": 3,
+                    "formspree-form": true,
+                    "formspree-slug": "xjkbobbb"
+                },
+                {
+                    "url": "https://routin.cloud/favicon.png",
+                    "color": "blue",
+                    "modal-index": 1,
+                    "link-preview": true,
+                    "url-preview": "https://google.com",
+                    "link-preview-api-key": "95ab9779437883c7f891458a13373a3f"
+                }
+
+            ]
+        }
+    }
+}

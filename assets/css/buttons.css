@@ -1,0 +1,56 @@
+/* Routin Cloud Free Button Sample
+ * Base Buttons Stylesheet
+ * This stylesheet defines the styles for the button container and individual buttons.
+ * The button container is fixed to the bottom right of the viewport and arranges buttons in a column.
+ * Buttons are styled to be circular with a shadow effect and transitions for scaling and opacity.
+ * The floating button has a black background, while extra buttons are initially hidden.
+ * Hover and active states are included to enhance user interaction.
+ * Made for Routin.cloud by @hiddensetup
+ */
+
+ #button-container {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 10px;
+  z-index: 1002;
+}
+
+#floating-button, .extra-button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 0 2px 1px var(--color-shadow);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 1;
+}
+
+#floating-button {
+  background: var(--color-black);
+}
+
+.extra-button {
+  opacity: 0;
+  display: none;
+}
+
+#floating-button img, .extra-button img {
+  width: 25px;
+  height: 25px;
+}
+
+#floating-button:hover, .extra-button:hover {
+  transform: scale(1.1);
+}
+
+#floating-button:active, .extra-button:active {
+  transform: scale(0.95);
+}

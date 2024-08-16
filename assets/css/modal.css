@@ -1,0 +1,101 @@
+/* Routin Cloud Free Button Sample
+ * Modal Stylesheet
+ * This stylesheet defines the styles for modal forms, buttons, images, and preview sections.
+ * It sets the font size, color, padding, and border styles for form elements and text within modals.
+ * Button styles include background color, text color, padding, and transitions for hover effects.
+ * Images within modals have a responsive design with scaling effects on hover.
+ * The preview section has its own styling for text alignment, padding, and border, with a distinct background color.
+ * The modal overlay is styled to cover the entire viewport with a semi-transparent background and transition effects.
+ * Made for Routin.cloud by @hiddensetup
+ */
+
+ .modal form input, .modal form textarea, .modal p, .modal textarea, .modal select {
+  font-size: 16px;
+  color: var(--color-gray);
+  width: calc(100% - 22px);
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--color-gray-light);
+  font-family: inherit;
+  outline: none;
+}
+
+.modal textarea {
+  height: 120px;
+}
+
+.modal form input:focus, .modal form textarea:focus, .modal textarea:focus {
+  box-shadow: 0 0 1px 4px var(--color-focus-shadow);
+}
+
+.modal button, .modal form button {
+  background: var(--color-black);
+  color: var(--color-white);
+  border: none;
+  padding: 16px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+  font-family: inherit;
+  margin: 20px 0 10px;
+}
+
+.modal button:hover, .modal form button:hover {
+  background: var(--color-hover-bg);
+}
+
+.modal #formspree-button:hover {
+  background: #ff001b;
+}
+
+.modal img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.modal img:hover {
+  transform: scale(1.05);
+}
+
+.modal .preview {
+  text-align: left;
+  margin-top: 0;
+  padding: 10px;
+  border: 1px solid var(--color-gray-light);
+  border-radius: 10px;
+  background-color: var(--color-modal-bg);
+}
+
+.modal .preview img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.modal .preview h3 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+  color: var(--color-gray-dark);
+}
+
+.modal .preview p {
+  font-size: 14px;
+  color: var(--color-gray);
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1000;
+}
